@@ -6,7 +6,7 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
-router.get('/hello', (req, res, next) => {
+router.get('/api/hello', (req, res, next) => {
   res.send('Hello :D');
 });
 
