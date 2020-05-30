@@ -13,6 +13,7 @@ phases:
       - echo Installing source NPM dependencies...
       - cd react-ui
       - npm install
+      - npm run build
       - cd ..
       - cd node-api
       - npm install
@@ -32,9 +33,9 @@ phases:
 # ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
 artifacts:
   files:
-      - '**/*'
-#     - app.js
-#     - index.html
+#     - '**/*'
+      - node-api/*
+      - react-ui/build/*
 #     - package.json
 #     - node_modules/async/*
 #     - node_modules/lodash/*
