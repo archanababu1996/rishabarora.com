@@ -11,18 +11,17 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - cd react-ui
-      - npm install
-      - npm run build
-      - cd ..
       - cd node-api
       - npm install
       - cd ..
+      - cd react-ui
+      - npm install
       # - npm install unit.js
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
+      - npm run build
       # - mocha test.js
   post_build:
     commands:
