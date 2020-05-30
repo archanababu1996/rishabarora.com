@@ -35,6 +35,6 @@ artifacts:
 #     - '**/*'
       - node-api/*
       - react-ui/build/*
-#     - package.json
-#     - node_modules/async/*
+      - appspec.yml
+      - buildspec.yml
 #     - node_modules/lodash/*
