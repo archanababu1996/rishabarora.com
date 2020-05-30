@@ -13,7 +13,8 @@ phases:
       - echo Installing source NPM dependencies...
       - cd react-ui
       - npm install
-      - cd ../node-api
+      - cd ..
+      - cd node-api
       - npm install
       - cd ..
       # - npm install unit.js
