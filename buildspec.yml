@@ -33,7 +33,7 @@ phases:
 artifacts:
   files:
 #     - '**/*'
-      - node-api/*
+      - node-api/**/*
       - react-ui/build/**/*
       - appspec.yml
       - buildspec.yml
