@@ -34,7 +34,7 @@ artifacts:
   files:
 #     - '**/*'
       - node-api/*
-      - react-ui/build/*
+      - react-ui/build/**
       - appspec.yml
       - buildspec.yml
 #     - node_modules/lodash/*
